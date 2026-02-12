@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CityPulse</title>
+</head>
+<style>
+body {
+  font-family: Arial, sans-serif;
+  background: #cce3fa; 
+  margin: 0;
+  padding: 20px;
+}
+
+.box {
+  background: white;
+  padding: 20px;
+  border-radius: 10px;
+  width: 350px;
+  margin: auto;
+}
+h2 {
+  color: #1E40AF; 
+  text-align: center;
+}
+h1{
+   color: #1E40AF;
+}
+
+input, select, textarea, button {
+  width: 100%;
+  margin-top: 10px;
+  padding: 8px;
+}
+button {
+  background: #1E40AF;
+  color: white;
+  border: none;
+}
+</style>
+
+<body>
+    <p>
+      <h1><strong>CityPluse</strong></h1> 
+      <h1><strong>Экосистема города Семей</strong></h1>  
+    </p>
+    
+    <div class="box">
+  <h2>Обращение</h2>
+
+  <form>
+    <select required>
+      <option value="">Выберите категорию</option>
+      <option>Дороги</option>
+      <option>Освещение</option>
+      <option>ЖКХ</option>
+      <option>Экология</option>
+    </select> 
+
+    <h2>Подать обращение</h2>
+
+    <section>       
+       <form action="sudmit" method="POST">
+
+         <label>Описание проблемы:</label><br>
+         <textarea rows="4" required></textarea>
+            <br><br>
+         <br>
+         <input type="file" accept="image/*">
+
+         <br><br>
+
+           <button type="submit">Отправить</button>
+
+        </form>
+   </section>
+
+</body>
+<footer>
+ <h2>О нас<h2>
+
+
+
+
+
+    @CityPulse.Semey.com
+</footer>
+</html>
